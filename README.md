@@ -1,0 +1,2 @@
+# A_Comparative_Analysis_of_Machine_Learning_Models_for_Automotive_Fuel_Efficiency_Prediction
+The models are evaluated using standard performance metrics like RMSE, MAE, and R² to assess predictive accuracy. In addition, the study explores the balance between model performance and explainability, highlighting how interpretable insights can support better decision-making in real-world automotive applications.
