@@ -1,0 +1,27 @@
+============================================================
+DecisionTreeRegressor (default parameters, random_state=42)
+============================================================
+R²  = 0.6359 = 63.59 %
+MAE = 1.56 mpg
+RMSE= 3.08 mpg
+
+Top 10 Feature Importances:
+cylinders                  0.5602
+is_high_performance        0.2280
+displacement               0.0855
+make_encoded               0.0462
+is_hybrid                  0.0198
+drivetrain_type_encoded    0.0162
+size_category_encoded      0.0157
+vehicle_age                0.0077
+year                       0.0076
+class_encoded              0.0052
+
+
+----------------------
+
+
+
+Train Score: 0.9952 = 99.52 %
+
+Test Score: 0.6359 = 63.59 %

@@ -1,0 +1,8 @@
+Gradient Boosting Performance (scikit-learn):
+RMSE: 1.92 mpg
+MAE:  1.18 mpg
+R²:   0.858 = 85.58 %
+
+Train Score: 98.96332707831542 %
+
+Test Score: 85.83531483576756 %
