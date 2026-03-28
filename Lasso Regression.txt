@@ -1,0 +1,95 @@
+============================================================
+LASSO REGRESSION ANALYSIS RESULTS
+============================================================
+
+Dataset: Car Data P.csv
+Target variable: city_mpg
+Number of features: 30
+Training samples: 440
+Test samples: 110
+
+Optimal alpha (regularization strength): 0.008715
+
+PERFORMANCE METRICS:
+----------------------------------------
+Training MSE: 0.0001
+Test MSE: 0.0001
+Training MAE: 0.0051
+Test MAE: 0.0048
+Training R²: 1.0000 = 100 %
+Test R²: 1.0000 = 100 %
+
+FEATURE ELIMINATION SUMMARY:
+----------------------------------------
+Total features: 30
+Non-zero coefficients: 3
+Zero coefficients (eliminated): 27
+Percentage eliminated: 90.00%
+
+TOP 30 FEATURES BY IMPORTANCE:
+--------------------------------------------------------------------------------
+Feature                            Coefficient  Absolute Value
+--------------------------------------------------------------------------------
+city_mpg_scaled                       8.649775        8.649775
+combination_mpg                       0.054817        0.054817
+is_electric                           0.002381        0.002381
+displacement                         -0.000000        0.000000
+year                                  0.000000        0.000000
+highway_mpg                           0.000000        0.000000
+engine_efficiency                     0.000000        0.000000
+engine_power_density                 -0.000000        0.000000
+is_high_performance                  -0.000000        0.000000
+vehicle_age                          -0.000000        0.000000
+is_luxury                            -0.000000        0.000000
+is_diesel                            -0.000000        0.000000
+is_hybrid                             0.000000        0.000000
+cylinders                            -0.000000        0.000000
+is_automatic                          0.000000        0.000000
+is_manual                            -0.000000        0.000000
+class_encoded                         0.000000        0.000000
+make_encoded                          0.000000        0.000000
+fuel_type_encoded                    -0.000000        0.000000
+transmission_encoded                 -0.000000        0.000000
+size_category_encoded                 0.000000        0.000000
+drive_encoded                        -0.000000        0.000000
+drivetrain_type_encoded               0.000000        0.000000
+combination_mpg_scaled                0.000000        0.000000
+cylinders_scaled                     -0.000000        0.000000
+displacement_scaled                  -0.000000        0.000000
+highway_mpg_scaled                    0.000000        0.000000
+year_scaled                           0.000000        0.000000
+vehicle_age_scaled                   -0.000000        0.000000
+engine_efficiency_scaled              0.000000        0.000000
+
+============================================================
+FEATURES ELIMINATED BY LASSO (Zero Coefficients):
+============================================================
+displacement
+year
+highway_mpg
+engine_efficiency
+engine_power_density
+is_high_performance
+vehicle_age
+is_luxury
+is_diesel
+is_hybrid
+cylinders
+is_automatic
+is_manual
+class_encoded
+make_encoded
+fuel_type_encoded
+transmission_encoded
+size_category_encoded
+drive_encoded
+drivetrain_type_encoded
+combination_mpg_scaled
+cylinders_scaled
+displacement_scaled
+highway_mpg_scaled
+year_scaled
+vehicle_age_scaled
+engine_efficiency_scaled
+
+Total eliminated features: 27
