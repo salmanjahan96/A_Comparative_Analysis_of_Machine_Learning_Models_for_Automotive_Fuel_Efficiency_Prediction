@@ -1,0 +1,4 @@
+Missing values: 0
+R² Score:  0.6661 = 66.61 %
+MAE:       2.02 mpg
+RMSE:      2.95 mpg
