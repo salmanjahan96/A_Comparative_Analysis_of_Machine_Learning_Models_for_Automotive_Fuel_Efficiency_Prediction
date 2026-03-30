@@ -1,0 +1,21 @@
+============================================================
+LINEAR REGRESSION MODEL SUMMARY
+============================================================
+
+Target Variable: combination_mpg
+Number of Features: 24
+Training Samples: 440
+Test Samples: 110
+
+PERFORMANCE METRICS:
+  R-squared (R²): 0.7224 = 72.24%
+  MSE: 7.2359
+  RMSE: 2.6900
+  MAE: 1.8930
+
+TOP 5 FEATURES:
+  is_electric: 48.169370
+  engine_power_density: -35.429861
+  is_diesel: -18.287418
+  is_hybrid: 11.835442
+  fuel_type_encoded: -11.594534

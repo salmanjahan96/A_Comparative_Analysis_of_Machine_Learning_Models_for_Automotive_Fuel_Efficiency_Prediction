@@ -1,0 +1,23 @@
+==================================================
+RANDOM FOREST REGRESSOR RESULTS
+==================================================
+Mean Squared Error (MSE): 2.6595
+Root Mean Squared Error (RMSE): 1.6308
+Mean Absolute Error (MAE): 0.5346
+R² Score: 0.8980 = 89.80 %
+Actual vs Predicted range: [14.0, 48.0] vs [15.0, 55.6]
+
+==================================================
+TOP 10 MOST IMPORTANT FEATURES
+==================================================
+                 feature  importance
+       engine_efficiency    0.405156
+engine_efficiency_scaled    0.362543
+    engine_power_density    0.061473
+        cylinders_scaled    0.042698
+     displacement_scaled    0.028353
+               cylinders    0.026179
+            displacement    0.026144
+             is_electric    0.024527
+               is_hybrid    0.005568
+       fuel_type_encoded    0.005134
