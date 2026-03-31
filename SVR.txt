@@ -1,0 +1,4 @@
+R² score: 0.727 = 72.7 %
+
+Train Score: 0.338 = 33.8 %
+Test Score: 0.727 = 72.7 % 
